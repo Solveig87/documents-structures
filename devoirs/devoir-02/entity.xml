@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Root SYSTEM "entity.dtd">
+
+<Root>
+	<Element3>
+		cet élément peut être vide
+		<Element2 id="ID1"></Element2>
+		<Element1 id="ID2"></Element1>
+		<Element4 id="ID3"></Element4>
+		ou contenir un ou plusieurs de ces éléments dans n'importe quel ordre
+	</Element3>
+	<Element4 id="ID4"></Element4>
+	<Element5 id="ID5"></Element5>
+</Root>
