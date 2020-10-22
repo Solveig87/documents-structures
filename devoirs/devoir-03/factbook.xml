@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="factbook-minimal.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<mondial>
+    <continent id="c1" name="Afrique"/>
+    <continent id="c2" name="Amérique"/>
+    <continent id="c3" name="Asie"/>
+    <continent id="c4" name="Europe"/>
+    <continent id="c5" name="Océanie"/>
+    <country id="p1" name="Japon" gdp_total="4972" gdp_agri="">
+        <name>Japon</name>
+        <city longitude="" latitude="">
+            <name>Tokyo</name>
+            <population xmlns="inalco:documents-structures:ns">9273000000</population>
+        </city>
+    </country>
+    <country id="p2" name="France" gdp_total="2775" gdp_agri="">
+        <name>France</name>
+        <city longitude="" latitude="">
+            <name>Montigny le Bretonneux</name>
+            <population xmlns="inalco:documents-structures:ns">32929</population>
+        </city>
+        <city longitude="" latitude="">
+            <name>Mantes la Jolie</name>
+            <population xmlns="inalco:documents-structures:ns">44799</population>
+        </city>
+    </country>
+</mondial>
