@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # XSLT
 
 ## Introduction
+=======
+# XSLT
+
+## Introduction
+>>>>>>> upstream/master
 
 XSLT est un langage pour transformer les documents XML, soit dans le même format ou bien vers d'autres formats comme le HTML, PDF et texte.
 
@@ -65,7 +71,11 @@ Dans cet exemple, je vais dire "sélectionne le noeud racine" ensuite écrit l'�
 </html
 ```
 
+<<<<<<< HEAD
 #### Règles par défaut
+=======
+#### Règles par défaut
+>>>>>>> upstream/master
 
 Pourquoi l'élément `<para>` et son contenu ont-ils été supprimé ? Il existe ce que l'on appelle des *règles par défaut*.
 
@@ -202,7 +212,11 @@ Exemple
 
 Ne pas oublier de changer la valeur de la version dans la racine !
 
+<<<<<<< HEAD
 ## Supprimer un noeud
+=======
+## Supprimer un noeud
+>>>>>>> upstream/master
 
 Pour supprimer un noeud (et ses enfants), il suffit de créer un template auto-fermé.
 
@@ -234,7 +248,11 @@ On peut aussi passer par une instruction XSL mais il est recommandé de ne pas l
 </xsl:template>
 ```
 
+<<<<<<< HEAD
 ## Créer un attribut
+=======
+## Créer un attribut
+>>>>>>> upstream/master
 
 La déclaration d'un attribut se fait comme pour les éléments, c'est à dire que l'on peut écrire directement dans l'élément les noms des attributs.
 
@@ -302,7 +320,11 @@ Il est possible d'utiliser une condition avec `<xsl:if test="">`. Cependant, il 
 
 Pour émuler le `else`, il faut passer par la négation de la condition.
 
+<<<<<<< HEAD
 ### choose
+=======
+### choose
+>>>>>>> upstream/master
 
 La version 2.0 de XSLT a ajouté la condition de type `if elif else` avec l'instruction `<xsl:choose>`. Dans cet élément, il est possible de définir plusieurs choix avec `<xsl:when test="">` et un `else` avec `<xsl:otherwise>`. Le `<xsl:otherwise>` est optionnel.
 
@@ -328,7 +350,11 @@ On définit un test qui vérifie :
 - s'il y a des enfants
 - sinon, le reste
 
+<<<<<<< HEAD
 ## Les espaces de nom
+=======
+## Les espaces de nom
+>>>>>>> upstream/master
 
 Une des erreurs courantes lorsque l'on travaille sur un document avec un espace de nom est justement de ne pas l'indiquer puis de se demander pourquoi rien ne passe.
 
@@ -410,4 +436,8 @@ Rien ne vous empêche de déclarer un nouvel espace de nom dans votre document e
 
 ## Exercice
 
+<<<<<<< HEAD
 Transformer le document XML `xml-xslt/xml-pour-tei.xl` pour obtenir le même résultat que le document XML `xml-xslt/tei-sortie.xml` à l'aide d'une feuille XSL.
+=======
+Transformer le document XML `xml-xslt/xml-pour-tei.xl` pour obtenir le même résultat que le document XML `xml-xslt/tei-sortie.xml` à l'aide d'une feuille XSL.
+>>>>>>> upstream/master
