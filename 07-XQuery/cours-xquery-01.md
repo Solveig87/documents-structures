@@ -219,12 +219,12 @@ return $ns
 
 ### Query dans un document
 
-Pour préciser dans quel document on souhaite effectuer la requête, on utilise l'instruction `doc(path)`.
+Pour préciser dans quel document on souhaite effectuer la requête, on utilise l'instruction `doc(file:///path)`.
 
 ``` xquery
 declare namespace t = "http://www.tei-c.org/ns/1.0";
  
-let $rom := doc('Rom.xml')
+let $rom := doc('file:///Rom.xml')
 
 for $editor in $rom//t:editor
 return $editor/text()
@@ -235,7 +235,7 @@ ou
 ``` xquery
 declare namespace t = "http://www.tei-c.org/ns/1.0";
 
-for $editor in doc('Rom.xml')//t:editor
+for $editor in doc('file:///Rom.xml')//t:editor
 return $editor/text()
 ```
 
